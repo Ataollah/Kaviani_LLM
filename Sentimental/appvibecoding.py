@@ -44,7 +44,7 @@ Guidelines:
 
 
 def get_client() -> OpenAI:
-    api_key = ""
+    api_key = "your_key_here"
     if not api_key:
         raise RuntimeError(
             "Missing OPENROUTER_API_KEY environment variable. "
